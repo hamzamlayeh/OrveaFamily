@@ -1,0 +1,54 @@
+page-connexion {
+    .header {
+        margin-top: 5rem;
+        margin-left: 4rem;
+        display: block;
+    }
+    .headerimage {
+        height: 65px;
+        width: 173px;
+    }
+    .partager-n-a-jamais {
+        color: #00286A;
+        font-family: Pangram;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.78px;
+        line-height: 26px;
+        text-align: center;
+        margin: auto;
+    }
+    .text {
+        margin-top: 5rem;
+    }
+    .shape {
+        height: 50px;
+        width: 46px;
+    }
+    .slid {
+        margin-top: 5rem;
+    }
+    .reportez-l-avancemen {
+        color: #03A9E1;
+        font-family: Pangram;
+        font-size: 18px;
+        letter-spacing: 0.64px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+    }
+    .btn {
+        margin-top: 5rem;
+    }
+    .insc {
+        background: linear-gradient(235.73deg, #00C1F1 0%, #0790D1 100%);
+    }
+    .insc2 {
+        background: white;
+        border: (2px solid #0790D1)
+    }
+}
