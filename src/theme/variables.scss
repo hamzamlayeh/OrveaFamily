@@ -86,3 +86,43 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: 'Pangram';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-ExtraLight.otf');
+}
+@font-face {
+  font-family: 'Pangram';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-Light.otf');
+}
+@font-face {
+  font-family: 'Pangram';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Pangram';
+  font-style: semi-bold;
+  font-weight: 600;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Pangram';
+  font-style: bold;
+  font-weight: 800;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Pangram';
+  font-style: extra-bold;
+  font-weight: 900;
+  src: url('../assets/fonts/Pangram-Sans-Font-Family/Pangram-Black.otf');
+}
