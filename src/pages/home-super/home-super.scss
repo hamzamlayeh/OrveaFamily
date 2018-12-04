@@ -1,3 +1,122 @@
 page-home-super {
+ .rectangle-6 {
+        height: 104px;
+        background-color: #EDFAFF;
+        box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+    }
+    .shape1 {
+        height: 10rem;
+        width:4rem;
+        margin: auto;
+        display: block;
+    }
+    .logo {
+        height: 10rem;
+        width: 15rem;
+        margin: auto;
+        display: block;
+    }
+    .rectangle-26-copy-2 {
+        margin: auto;
+      
+        height: 10rem;
+        width: 24rem;
+    
+       
+    }
+    .text-input-ios {
+    margin: 11px 8px 11px 0;
+    padding: 0;
+    width: calc(100% - 8px);
+    text-align: center;
+}
+    
+ .searchBtn{
+      margin: auto;
+        display: block;
+     	height: 40px;	width: 230px;
+     background-image: url('../../assets/imgs/loupe.svg');
+     background-repeat: no-repeat;
+   background-position: center;
+     
+     background-size: 21px;  
+ 	border-radius: 20px;	
+     background-color: #F3F3F3;
+    background-position-x: 5rem;
+}
+.lin{
+    margin:auto;
+        left: -4%;
+}
+.search{
+    position:relative;
+    top:5%;
+}
+.img{
+    width:3rem;
+    max-width:3rem;
+}
+.para{
+    	color: #0B95D5;
+        	// font-family: Pangram;
+            	font-size: 14px;
+                	font-weight: 300;
+                    	line-height: 17px;
+}
+.proj{
+     position:relative;
+    top:5%;
+    margin :auto;
+    text-align:center;
+}
 
+.list-ios > .item-block:first-child {
+     border-top: 0px solid #c8c7cc; 
+}
+.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+     border-bottom: 0.2px solid #E3E3E3;
+}
+   .open {
+        background: red;
+        border: 10px solid red;
+        border-radius: 130px;
+        color: white;
+        
+    }
+    .body{
+        max-width: 200%;
+        height: 14px;	width: 13px;
+    }
+    p.ex1 {
+   
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 100%; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+.cols{
+   
+    margin-top: 1.5%;
+    margin-left:-3%;
+     margin-right:3%;
+}
+   .ex2 {
+    font-size:1rem;
+  text-overflow: ellipsis;
+ 
+  width: 100%; 
+  height: 1.2em; 
+  
+}
+.green{
+     background: #62FFB5;
+        border: 10px solid #62FFB5;
+        border-radius: 130px;
+        color: white;
+    
+}
+.add{
+    width: 153px;
+}
 }
