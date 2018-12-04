@@ -22,7 +22,8 @@ export class MyApp {
       { title: 'Home', component: 'HomeSuperPage' },
         { title: 'Membres', component: 'MembrePage' },
       { title: 'Membres', component: 'InvitationPage' },
-      { title: 'Inscription', component: 'RegisterUserPage' }
+      { title: 'Inscription', component: 'RegisterUserPage' },
+      { title: 'InscriptionAdmin', component: 'RegisterAdminPage' }
     ];
 
   }
