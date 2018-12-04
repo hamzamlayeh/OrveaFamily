@@ -1,8 +1,8 @@
 page-stockage {
 .headerImg{
-    position: absolute;
-    left: 35%;
-    padding-bottom: 11%;
+       display: block;
+    position: relative;
+    margin: auto;
 }
 .myDiv{
   position: relative;
@@ -11,7 +11,7 @@ page-stockage {
 }
 .divText{
       position: relative;
-    top:15rem;
+    top:6rem;
     margin-bottom: 31px;
     text-align:center;
 }
@@ -29,11 +29,11 @@ page-stockage {
 }
 .search{
     position:relative;
-    top:14rem;
+    top:5rem;
 }
 .proj{
      position:relative;
-    top:11rem;
+    top:2rem;
     margin :auto;
     text-align:center;
 }
@@ -46,7 +46,7 @@ page-stockage {
 }
 .tog{
      position:relative;
-    top:11rem;
+    top:2rem;
     margin :auto;
     text-align:center;
 }
