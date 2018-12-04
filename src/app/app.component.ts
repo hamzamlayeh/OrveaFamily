@@ -21,7 +21,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: 'HomeSuperPage' },
         { title: 'Membres', component: 'MembrePage' },
-      { title: 'Membres', component: 'InvitationPage' }
+      { title: 'Membres', component: 'InvitationPage' },
+      { title: 'Inscription', component: 'RegisterUserPage' }
     ];
 
   }
