@@ -1,3 +1,56 @@
 page-stockage {
+.headerImg{
+    position: absolute;
+    left: 35%;
+    padding-bottom: 11%;
+}
+.myDiv{
+  position: relative;
+    top:5rem;
+    margin-bottom: 31px;
+}
+.divText{
+      position: relative;
+    top:15rem;
+    margin-bottom: 31px;
+    text-align:center;
+}
 
+   [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+  
+	background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight:bold;
+} 
+.lin{
+    margin:auto;
+        left: 0;
+}
+.search{
+    position:relative;
+    top:14rem;
+}
+.proj{
+     position:relative;
+    top:11rem;
+    margin :auto;
+    text-align:center;
+}
+.img{
+    width:3rem;
+    max-width:3rem;
+}
+.para{
+    	color: #0B95D5;	font-family: Pangram;	font-size: 12px;	line-height: 15px;
+}
+.tog{
+     position:relative;
+    top:11rem;
+    margin :auto;
+    text-align:center;
+}
+.tex{
+    text-decoration: underline;	color: #00347F;	font-family: Pangram;	font-size: 22px;	font-weight: bold;	line-height: 31px;
+}
 }
