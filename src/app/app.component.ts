@@ -24,7 +24,10 @@ export class MyApp {
       { title: 'invitation', component: 'InvitationPage' },
       { title: 'Inscription', component: 'RegisterUserPage' },
       { title: 'InscriptionAdmin', component: 'RegisterAdminPage' },
-      { title: 'Landing', component: 'ConnexionPage' }
+      { title: 'Landing', component: 'ConnexionPage' },
+          { title: 'Stockage', component: 'StockagePage' },
+              { title: 'role', component: 'RolePage' },
+                  { title: 'parameter', component: 'ParametresPage' }
     
     
     ];
