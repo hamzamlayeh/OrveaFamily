@@ -4,31 +4,12 @@ page-invitation {
     }
     .line-5-copy {	height: 19px;	width: 18px;	transform: scaleX(-1);}
 
-    .code-d-invitation {	
-        background: -webkit-gradient(linear, right top, right bottom, from(#00286A), to(#00C1F1));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: Arial;
-        font-size: 31px;
-        line-height: 26px;
-        text-align: center;
-        }
     .text {
-        margin-top: 0rem;
-    }
- 
-    .entrez-le-code-que-v {	
-        background: -webkit-gradient(linear, right top, right bottom, from(#00286A), to(#00C1F1));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: Arial;
-        text-align: center;
-        position: relative;
-        font-size: 20px;
-        top: -48px;
+        margin-top: 2rem;
     }
 
     .rectangle-33 {	
+        margin-top: 8rem;
         padding: 20px;
         border-radius: 52.5px;  
         background-color: #F3F3F3;
