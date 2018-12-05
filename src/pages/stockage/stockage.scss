@@ -1,56 +1,105 @@
 page-stockage {
-.headerImg{
-       display: block;
-    position: relative;
-    margin: auto;
-}
-.myDiv{
-  position: relative;
-    top:5rem;
-    margin-bottom: 31px;
-}
-.divText{
-      position: relative;
-    top:6rem;
-    margin-bottom: 31px;
-    text-align:center;
-}
-
-   [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
-  
-	background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-    font-weight:bold;
-} 
-.lin{
-    margin:auto;
+    .headerImg {
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    .myDiv {
+        position: relative;
+        top: 5rem;
+        margin-bottom: 31px;
+    }
+    .divText {
+        position: relative;
+        top: 6rem;
+        margin-bottom: 31px;
+        text-align: center;
+    }
+    [padding] h1:first-child,
+    [padding] h2:first-child,
+    [padding] h3:first-child,
+    [padding] h4:first-child,
+    [padding] h5:first-child,
+    [padding] h6:first-child {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+    .lin {
+        margin: auto;
         left: 0;
-}
-.search{
-    position:relative;
-    top:5rem;
-}
-.proj{
-     position:relative;
-    top:2rem;
-    margin :auto;
-    text-align:center;
-}
-.img{
-    width:3rem;
-    max-width:3rem;
-}
-.para{
-    	color: #0B95D5;	font-family: Pangram;	font-size: 12px;	line-height: 15px;
-}
-.tog{
-     position:relative;
-    top:2rem;
-    margin :auto;
-    text-align:center;
-}
-.tex{
-    text-decoration: underline;	color: #00347F;	font-family: Pangram;	font-size: 22px;	font-weight: bold;	line-height: 31px;
-}
+    }
+    .search {
+        position: relative;
+        top: 5rem;
+    }
+    .proj {
+        position: relative;
+        top: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+    .img {
+        width: 3rem;
+        max-width: 3rem;
+    }
+    .para {
+        color: #0B95D5;
+        font-family: Pangram;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .tog {
+        position: relative;
+        top: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+    .tex {
+        text-decoration: underline;
+        color: #00347F;
+        font-family: Pangram;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 31px;
+    }
+    .GB {
+        position: relative;
+        margin: auto;
+        display: block;
+        max-width: 40rem;
+    }
+    .pro {
+        position: relative;
+        top: 6rem;
+        margin: auto;
+        text-align: center;
+    }
+    .progress-outer {
+        width: 96%;
+        margin: 10px 2%;
+        padding: 3px;
+        text-align: center;
+        background-color: #f4f4f4;
+        border: 1px solid #dcdcdc;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .progress-inner {
+        min-width: 15%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: map-get($colors, dark);
+    }
+    .progress-inner2 {
+        min-width: 15%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: map-get($colors, danger);
+    }
 }
