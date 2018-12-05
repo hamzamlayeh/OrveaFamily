@@ -78,8 +78,6 @@ page-stockage {
     }
     .progress-outer {
         width: 96%;
-        margin: 10px 2%;
-        padding: 3px;
         text-align: center;
         background-color: #f4f4f4;
         border: 1px solid #dcdcdc;
@@ -101,5 +99,81 @@ page-stockage {
         padding: 5px;
         border-radius: 20px;
         background-color: map-get($colors, danger);
+    }
+    .par {
+        margin: 2px 2px 8px;
+        font-size: 1rem;
+        line-height: normal;
+        color: #666;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        height: 1.2em;
+        white-space: nowrap;
+    }
+    [col-2] {
+        margin: auto;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+        width: 16.66667%;
+        max-width: 16.66667%;
+    }
+    [col-4] {
+        margin: auto;
+        padding-right: 0%;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        width: 33.33333%;
+        max-width: 33.33333%;
+    }
+    .label {
+        margin: 11px 0px 11px 0px;
+    }
+    .list>.item-block:first-child {
+        width: 100%;
+        border-top: 0.55px solid #c8c7cc;
+        padding: 0px;
+    }
+    .list .item-block .item-inner {
+        width: 163%;
+        border-bottom: 0.55px solid #c8c7cc;
+        padding: 0;
+    }
+    .col8 {
+        margin: auto;
+        padding-right: 0%;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 66.66667%;
+        -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+        width: 66.66667%;
+        max-width: 66.66667%;
+    }
+    .item ion-avatar[item-left],
+    .item ion-thumbnail[item-left],
+    .item ion-avatar[item-start],
+    .item ion-thumbnail[item-start] {
+        margin: auto;
+    }
+    .item ion-avatar ion-img,
+    .item ion-avatar img {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 50px;
+        height: 100px;
+    }
+    .item {
+        padding-left: 0;
+        border-radius: 0;
+        position: relative;
+        font-size: 1.7rem;
+        color: #000;
+        background-color: #fff;
+        -webkit-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
     }
 }

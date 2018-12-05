@@ -53,179 +53,188 @@
 
 
     <div class="pro">
-        <ion-list>
+        <ion-list no-padding>
             <ion-item no lines>
                 <ion-avatar item-start>
                     <img src="/assets/imgs/stockage/1.svg">
                 </ion-avatar>
 
+                <ion-grid no-padding>
+                    <ion-row>
+                        <ion-col col-10>
+                            <ion-row>
+                                <ion-col col-4>
 
-                <h2>John Doe </h2>
-                <ion-row>
-                    <ion-col col-6>
-                        <p class="ex1">42 rue de charonne, 91...</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/body.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">5</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/img.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">143</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/doc.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">1</p>
-                    </ion-col>
-                </ion-row>
-                <span item-end class="open"></span>
+                                    <h2>John Doe </h2>
+                                </ion-col>
+                                <ion-col col-8>
+                                    <p class="par">Logisticien de chantier - 3 projets</p>
+                                </ion-col>
 
 
+                            </ion-row>
+                            <ion-row>
+                                <ion-col class="col8" col-8>
+                                    <div>
+                                        <div class="progress-outer">
+                                            <div *ngIf=" progress  >=  70 &&  progress  <=  100" class="progress-inner" [style.width]="progress + '%'">
 
+                                            </div>
+                                            <div *ngIf="progress  < 70 &&  progress  >=  40" class="progress-inner2" [style.width]="progress + '%'">
 
-            </ion-item>
-            <ion-item no lines>
-                <ion-avatar item-start>
-                    <img src="/assets/imgs/stockage/2.svg">
-                </ion-avatar>
-
-
-                <h2>John Doe </h2>
-                <ion-row>
-                    <ion-col col-6>
-                        <p class="ex1">42 rue de charonne, 91...</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/body.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">5</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/img.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">143</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/doc.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">1</p>
-                    </ion-col>
-                </ion-row>
-                <span item-end class="green"></span>
-
-
-
-
-
-
-
-
-
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ion-col>
+                                <ion-col col-4>
+                                    <h4>8.5GB/10</h4>
+                                </ion-col>
+                            </ion-row>
+                        </ion-col>
+                        <ion-col col-2>
+                            <img src="/assets/imgs/stockage/loader.svg">
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
 
             </ion-item>
             <ion-item no lines>
                 <ion-avatar item-start>
-                    <img src="/assets/imgs/stockage/3.svg">
+                    <img src="/assets/imgs/stockage/1.svg">
                 </ion-avatar>
 
+                <ion-grid no-padding>
+                    <ion-row>
+                        <ion-col col-10>
+                            <ion-row>
+                                <ion-col col-4>
 
-                <h2>John Doe </h2>
-                <ion-row>
-                    <ion-col col-6>
-                        <p class="ex1">42 rue de charonne, 91...</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/body.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">5</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/img.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">143</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/doc.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">1</p>
-                    </ion-col>
-                </ion-row>
-                <span item-end class="green"></span>
+                                    <h2>John Doe </h2>
+                                </ion-col>
+                                <ion-col col-8>
+                                    <p class="par">Logisticien de chantier - 3 projets</p>
+                                </ion-col>
 
 
+                            </ion-row>
+                            <ion-row>
+                                <ion-col class="col8" col-8>
+                                    <div>
+                                        <div class="progress-outer">
+                                            <div *ngIf=" progress  >=  70 &&  progress  <=  100" class="progress-inner" [style.width]="progress + '%'">
 
+                                            </div>
+                                            <div *ngIf="progress  < 70 &&  progress  >=  40" class="progress-inner2" [style.width]="progress + '%'">
 
-
-
-
-
-
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ion-col>
+                                <ion-col col-4>
+                                    <h4>8.5GB/10</h4>
+                                </ion-col>
+                            </ion-row>
+                        </ion-col>
+                        <ion-col col-2>
+                            <img src="/assets/imgs/stockage/loader.svg">
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
 
             </ion-item>
             <ion-item no lines>
                 <ion-avatar item-start>
-                    <img src="/assets/imgs/stockage/5.svg">
+                    <img src="/assets/imgs/stockage/1.svg">
                 </ion-avatar>
 
+                <ion-grid no-padding>
+                    <ion-row>
+                        <ion-col col-10>
+                            <ion-row>
+                                <ion-col col-4>
 
-                <h2>John Doe </h2>
-                <ion-row>
-                    <ion-col col-6>
-                        <p class="ex1">42 rue de charonne, 91...</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/body.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">5</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/img.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">143</p>
-                    </ion-col>
-                    <ion-col col-1 class="">
-                        <img class="body" src="/assets/imgs/doc.svg">
-                    </ion-col>
-                    <ion-col col-1 class="cols">
-                        <p class="ex2">1</p>
-                    </ion-col>
-                </ion-row>
-                <span item-end class="green"></span>
+                                    <h2>John Doe </h2>
+                                </ion-col>
+                                <ion-col col-8>
+                                    <p class="par">Logisticien de chantier - 3 projets</p>
+                                </ion-col>
 
 
+                            </ion-row>
+                            <ion-row>
+                                <ion-col class="col8" col-8>
+                                    <div>
+                                        <div class="progress-outer">
+                                            <div *ngIf=" progress  >=  70 &&  progress  <=  100" class="progress-inner" [style.width]="progress + '%'">
 
+                                            </div>
+                                            <div *ngIf="progress  < 70 &&  progress  >=  40" class="progress-inner2" [style.width]="progress + '%'">
 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ion-col>
+                                <ion-col col-4>
+                                    <h4>8.5GB/10</h4>
+                                </ion-col>
+                            </ion-row>
+                        </ion-col>
+                        <ion-col col-2>
+                            <img src="/assets/imgs/stockage/loader.svg">
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
 
             </ion-item>
+            <ion-item no lines>
+                <ion-avatar item-start>
+                    <img src="/assets/imgs/stockage/1.svg">
+                </ion-avatar>
 
+                <ion-grid no-padding>
+                    <ion-row>
+                        <ion-col col-10>
+                            <ion-row>
+                                <ion-col col-4>
+
+                                    <h2>John Doe </h2>
+                                </ion-col>
+                                <ion-col col-8>
+                                    <p class="par">Logisticien de chantier - 3 projets</p>
+                                </ion-col>
+
+
+                            </ion-row>
+                            <ion-row>
+                                <ion-col class="col8" col-8>
+                                    <div>
+                                        <div class="progress-outer">
+                                            <div *ngIf=" progress  >=  70 &&  progress  <=  100" class="progress-inner" [style.width]="progress + '%'">
+
+                                            </div>
+                                            <div *ngIf="progress  < 70 &&  progress  >=  40" class="progress-inner2" [style.width]="progress + '%'">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ion-col>
+                                <ion-col col-4>
+                                    <h4>8.5GB/10</h4>
+                                </ion-col>
+                            </ion-row>
+                        </ion-col>
+                        <ion-col col-2>
+                            <img src="/assets/imgs/stockage/loader.svg">
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+
+            </ion-item>
 
 
         </ion-list>
 
     </div>
-    <div style="margin-top: 20%">
-        <div class="progress-outer">
-            <div *ngIf=" progress  >=  70 &&  progress  <=  100" class="progress-inner" [style.width]="progress + '%'">
 
-            </div>
-            <div *ngIf="progress  < 70 &&  progress  >=  40" class="progress-inner2" [style.width]="progress + '%'">
-
-            </div>
-        </div>
-    </div>
 
 </ion-content>
