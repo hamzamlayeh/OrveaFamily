@@ -2,4 +2,10 @@
   "name": "Orvea",
   "integrations": {},
   "type": "ionic-angular"
+
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "app_id": ""
 }
