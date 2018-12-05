@@ -9,7 +9,7 @@ page-role {
         position: relative;
         display: block;
         margin: auto;
-        top: -29;
+        top: 12px;
     }
     #img_role {
         max-width: 23%;
@@ -17,13 +17,14 @@ page-role {
         display: block;
         margin: auto;
         top: 26%;
+        margin-bottom: 18%;
     }
     .img_rgrp {
-        width: 20em;
-        max-width: 90em;
-        display: block;
-        margin: auto;
-        top: 47%;
+        width: 18em;
+    max-width: 86em;
+    display: block;
+    margin: auto;
+    top: 47%;
     }
     .nb_role {
         position: relative;
@@ -32,13 +33,8 @@ page-role {
         font-size: 38px;
         color: #033E78;
     }
-    #span_role {
-        position: relative;
-        display: block;
-        margin: auto;
-        color: #033E78;
-        font-size: 130%;
-        left: 33%;
+    .col {
+         text-align: center;
     }
     #span_profil {
         color: #97ABB5;
@@ -65,4 +61,11 @@ page-role {
         display: block;
         margin: auto;
     }
+     [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+  
+	background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
 }
