@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 528 141">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.25" y1="0.487" x2="1.25" y2="0.513" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#002d68"/>
+      <stop offset="1" stop-color="#16baf1"/>
+    </linearGradient>
+    <image id="image" width="145" height="3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAADCAYAAACTdu1rAAAABHNCSVQICAgIfAhkiAAAACFJREFUOI1jfP3+43+GUTAKKABMA+2AUTD0wWgiGgUUAwDfcQPQjyRHVAAAAABJRU5ErkJggg=="/>
+  </defs>
+  <g id="Groupe_2" data-name="Groupe 2" transform="translate(-113 -458)">
+    <use id="Calque_4" data-name="Calque 4" transform="translate(496 529)" xlink:href="#image"/>
+    <use id="Calque_4_copie" data-name="Calque 4 copie" transform="translate(113 529)" xlink:href="#image"/>
+    <circle id="Ellipse_1_copie" data-name="Ellipse 1 copie" class="cls-1" cx="70.5" cy="70.5" r="70.5" transform="translate(308 458)"/>
+  </g>
+</svg>

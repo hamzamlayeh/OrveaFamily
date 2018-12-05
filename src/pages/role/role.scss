@@ -1,3 +1,70 @@
 page-role {
 
+    #ima_flache{
+    max-width: 65%;
+    border: 0;
+    margin-top: 2rem;
+    }
+
+    #casquette {
+        max-width: 23%;
+       position: relative;
+        display: block;
+        margin: auto;
+        top: -29;
+    }
+
+    #img_role {
+        max-width: 23%;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 26%;
+    }
+    #img_rgrp {
+        max-width: 84%;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 47%;
+    }
+    #nb_role{
+        position: relative;
+    left: 45%;
+    top: -32px;
+    font-size: 38px;
+    color: #033E78;
+    }
+
+    #span_role{
+        position: relative;
+        display: block;
+        margin: auto;
+        color: #033E78;
+        font-size: 130%;
+          left:33%;
+    }
+    #span_profil{
+        color: #97ABB5;
+        position: relative;
+        display: block;
+        margin: auto;
+        left: 5rem;
+        font-size: 1.7rem;
+        top: 2rem;
+    }
+    #span_profil2{
+        color: #97ABB5;
+        position: relative;
+        display: block;
+        margin: auto;
+        left: 8rem;
+        font-size: 1.7rem;
+        top: 3rem;
+    }
+    a{
+      color:  #707070;
+    }
+
+
 }
