@@ -27,9 +27,9 @@ export class MyApp {
       { title: 'Landing', component: 'ConnexionPage' },
           { title: 'Stockage', component: 'StockagePage' },
               { title: 'role', component: 'RolePage' },
-                  { title: 'parameter', component: 'ParametresPage' }
+                  { title: 'parameter', component: 'ParametresPage' },
     
-    
+    {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'}
     ];
 
 
