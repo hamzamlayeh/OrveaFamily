@@ -25,11 +25,11 @@ export class MyApp {
       { title: 'Inscription', component: 'RegisterUserPage' },
       { title: 'InscriptionAdmin', component: 'RegisterAdminPage' },
       { title: 'Landing', component: 'ConnexionPage' },
-          { title: 'Stockage', component: 'StockagePage' },
-              { title: 'role', component: 'RolePage' },
-                  { title: 'parameter', component: 'ParametresPage' },
-    
-    {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'}
+      { title: 'Stockage', component: 'StockagePage' },
+      { title: 'role', component: 'RolePage' },
+      { title: 'parameter', component: 'ParametresPage' },
+      { title: 'InfosEntreprise', component: 'InfosEnreprisePage' },
+      {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'}
     ];
 
 

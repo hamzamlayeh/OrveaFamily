@@ -1,0 +1,93 @@
+page-infos-enreprise {
+    .img {
+        margin-top: 1rem;
+        max-width: 65%;
+    }
+    .headerImg{
+        display: block;
+        position: relative;
+        margin: auto;
+        height: 57px;
+        width: 66px;
+       }
+   
+    .myDiv{
+        position: relative;
+        top: 0rem;
+        }
+
+    .divText{
+        position: relative;
+        top: 1rem;
+        text-align:center;
+     }
+      .item{
+        display: block;
+        position: relative;
+        margin-top: 1rem;  
+      }
+     .text {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        font-size: 30px;
+    }
+    .rectangle-5-copy-6 {		
+        border-radius: 24.5px;	
+        background-color: #F3F3F3;
+        color: #97ABB5;	
+        font-family: Pangram;	
+        font-size: 14px;	
+        text-shadow: 0 2px 5px 0 rgba(0,0,0,0.06);
+    }
+    .item.item-block .item-inner {
+        padding-right: 4px;
+        border-bottom: 0px ;
+    }
+    .item-label-stacked .text-input, .item-label-floating .text-input{
+        margin-left: 8%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+    }
+    .item-ios.item-label-stacked .text-input, .item-ios.item-label-floating .text-input {
+        margin-left: 8%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: calc(100% - 8px);
+    }
+    .label[stacked], .label[floating] {
+        margin-left: 17px;
+        margin-bottom: 0;
+        color: #00347F;	
+        font-family: Pangram;	
+        font-size: 13px;	
+        font-weight: bold;	
+    }
+    .divText2{
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+     }
+     .text2 {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        font-size: 141%;
+    }
+    #list {
+        width: 170px;
+        margin: 30px auto;
+        font-size: 20px;
+      }
+      #list ul {
+        margin-top: 30px;
+      }
+      #list ul li {
+        text-align: left;
+        list-style: disc;
+        margin: 10px 0px;
+      }
+}
