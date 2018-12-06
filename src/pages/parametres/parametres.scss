@@ -1,3 +1,92 @@
 page-parametres {
+    .img {
+        margin-top: 1rem;
+        max-width: 65%;
+    }
+    .headerImg{
+     display: block;
+     position: relative;
+     margin: auto;
+     height: 51px;
+     width: 66px;
+    }
 
+    .myDiv{
+        position: relative;
+        top: 0rem;
+      }
+      .divText{
+         position: relative;
+          top:6rem;
+          margin-bottom: 31px;
+          text-align:center;
+      }
+      [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+  
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        margin-top: -5.3rem;
+    } 
+    .cadre{
+        top: 4rem;
+        position: relative;
+        height: 139px;
+        border-radius: 14px;	
+        background-color: #FFFFFF;	
+        box-shadow: 0 2px 11px 0 rgba(0,0,0,0.09);
+    }
+    .pen {	
+        height: 19px;
+        width: 18px;
+        display: block;
+        position: relative;
+        margin: auto;
+        left: 41%;
+         top: 7%;
+    }
+    .imgLogo {	
+        display: block;
+        position: relative;
+        margin: auto;
+        top: 7%;
+        width: 66%;
+    }
+    .txt{
+        position: relative;
+        top: 4rem;
+        text-align: center;
+        color: #97ABB5;
+        font-family: Pangram;	
+    }
+    .tt{
+        position: relative;
+        top: 1rem;
+        text-align: center;
+        color: #99ADB7;
+        font-family: Pangram;	
+    }
+    .divtxt{
+        top: 3rem;
+        position: relative;
+        height: 55px;
+        border-radius: 14px;	
+        background-color: #E4E4E4;	
+        box-shadow: 0 2px 11px 0 rgba(0,0,0,0.09);
+    }
+    .customisation {
+            color: #0DADE3;	
+            font-family: Pangram;	
+            font-size: 22px;	
+            font-weight: bold;	
+        }
+    .group{
+        top: 4rem;
+        position: relative;
+        }
+    .item-md ion-avatar ion-img, .item-md ion-avatar img {
+            width: 70px;
+            height: 19px;
+    }
 }

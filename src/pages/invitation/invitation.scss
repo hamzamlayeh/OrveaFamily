@@ -2,12 +2,34 @@ page-invitation {
     .img {
         margin-top: 1rem;
     }
-    .line-5-copy {	height: 19px;	width: 18px;	transform: scaleX(-1);}
-
-    .text {
-        margin-top: 2rem;
+    .line-5-copy {	
+        height: 19px;	
+        width: 18px;	
+        transform: scaleX(-1);
     }
-
+    .divText{
+        position: relative;
+        top: 3rem;
+        text-align:center;
+     }
+     .divText2{
+        text-align: center;
+     }
+    .text {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        margin-bottom: 4rem;
+        font-size: 33px;
+    }
+    .text2 {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        font-size: 16px;
+    }
     .rectangle-33 {	
         margin-top: 8rem;
         padding: 20px;

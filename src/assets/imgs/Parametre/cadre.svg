@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 734.97 360.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Rectangle_arrondi_1_copie);
+      }
+    </style>
+    <filter id="Rectangle_arrondi_1_copie" x="0" y="0" width="734.97" height="360.82" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2.598" dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#3e3e3e" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <rect id="Rectangle_arrondi_1_copie-2" data-name="Rectangle arrondi 1 copie" class="cls-1" width="680.97" height="306.82" rx="20" transform="translate(29.6 25.5)"/>
+  </g>
+</svg>
