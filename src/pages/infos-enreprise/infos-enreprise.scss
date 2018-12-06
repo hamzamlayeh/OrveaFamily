@@ -78,9 +78,8 @@ page-infos-enreprise {
         font-size: 141%;
     }
     #list {
-        width: 170px;
-        margin: 30px auto;
-        font-size: 20px;
+       font-size: 2rem;
+       line-height: 3rem;
       }
       #list ul {
         margin-top: 30px;
@@ -88,6 +87,20 @@ page-infos-enreprise {
       #list ul li {
         text-align: left;
         list-style: disc;
+        font-family: Pangram;
+        color: #97ABB5;
         margin: 10px 0px;
       }
+      .john{
+        color: #00347F;	
+        font-family: Pangram;	
+        font-weight: bold;
+        font-size: 2rem;  
+      }
+      .supprimer-le-compte {		
+        color: #FF5A5A;
+        font-family: Pangram;
+        font-size: 2rem;
+        font-weight: bold;
+        }
 }

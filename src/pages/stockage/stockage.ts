@@ -16,7 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class StockagePage {
   progress:any
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.progress=41
+    this.progress=60
   }
 
   ionViewDidLoad() {

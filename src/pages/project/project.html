@@ -1,0 +1,187 @@
+<ion-content>
+    <div class="rectangle-8">
+        <ion-row class="myrow">
+            <div class="rectangle-7">
+                <img class="flech" src="/assets/imgs/project/flech.svg">
+                <h1>Villable - Vinci Immobilier</h1>
+                <p> 42 rue de Charonne, 91098</p>
+            </div>
+        </ion-row>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="mydiv">
+
+        <ion-segment [(ngModel)]="art" class="sbtn">
+            <ion-segment-button value="Galerie">
+                <div>
+                    <ion-icon class="fn-img"></ion-icon>
+                    <h1> Galerie</h1>
+                </div>
+            </ion-segment-button>
+            <ion-segment-button value="Rapports">
+                <div>
+                    <ion-icon class="fn-list"></ion-icon>
+                    <h1> Rapports</h1>
+                </div>
+
+            </ion-segment-button>
+            <ion-segment-button value="Listes">
+                <div>
+                    <ion-icon class="fn-docs"></ion-icon>
+                    <h1> Listes</h1>
+                </div>
+
+            </ion-segment-button>
+            <ion-segment-button value="Equipe">
+
+                <div>
+                    <ion-icon class="fn-plus"></ion-icon>
+                    <h1> Equipe</h1>
+                </div>
+            </ion-segment-button>
+            <ion-segment-button value="Carnet">
+
+                <div>
+                    <ion-icon class="fn-agend"></ion-icon>
+                    <h1> Carnet</h1>
+                </div>
+            </ion-segment-button>
+        </ion-segment>
+
+        <div [ngSwitch]="art">
+
+            <ion-list *ngSwitchCase="'Galerie'">
+                <div>
+                    <ion-row>
+                        <ion-col>
+                            <img style="float: right;" width="100em" src="/assets/imgs/project/cam.svg">
+                        </ion-col>
+                        <ion-col>
+                            <img width="100em" src="/assets/imgs/project/doc.svg">
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-row>
+                        <ion-col>
+                            <ion-card>
+                                <img src="/assets/imgs/project/image.svg" />
+                                <div class="overlay">
+                                    <div class="card-title">Toutes les photos</div>
+                                    <div class="card-subtitle">143 fichiers</div>
+                                </div>
+                            </ion-card>
+                        </ion-col>
+                        <ion-col>
+                            <ion-card>
+                                <img src="/assets/imgs/project/image.svg" />
+                                <div class="over">
+                                    <ion-icon name="heart"></ion-icon>
+                                </div>
+                                <div class="overlay">
+                                    <div class="card-title">Favoris</div>
+                                    <div class="card-subtitle">53 fichiers</div>
+                                </div>
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card>
+
+                                <img src="/assets/imgs/project/image.svg" />
+                                <div class="overlay">
+                                    <div class="card-title">Photos ponctuelles</div>
+                                    <div class="card-subtitle">53 fichiers</div>
+                                </div>
+                            </ion-card>
+                        </ion-col>
+                        <ion-col>
+                            <ion-card>
+                                <img src="/assets/imgs/project/image.svg" />
+                                <div class="over">
+                                    <ion-row>
+                                        <ion-col col-1>
+                                            <ion-icon name="fn-casquette"></ion-icon>
+                                        </ion-col>
+                                        <ion-col col-6>
+                                            <p class="par">Logisticien</p>
+                                        </ion-col>
+                                    </ion-row>
+
+                                </div>
+                                <div class="overlays">
+                                    <ion-row>
+                                        <ion-col col-3 style="margin: auto;">
+                                            <img style="max-width: 2.2em;width:2.2em;" src="/assets/imgs/project/1.svg" />
+                                        </ion-col>
+                                        <ion-col col-9>
+                                            <div class="card-title">John Doe</div>
+                                            <div class="card-subtitle">34 fichiers</div>
+                                        </ion-col>
+                                    </ion-row>
+                                </div>
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card>
+                                <img src="/assets/imgs/project/image.svg" />
+                                <div class="overlays">
+                                    <ion-row>
+                                        <ion-col col-3 style="margin: auto;">
+                                            <img style="max-width: 2.2em;width:2.2em;" src="/assets/imgs/project/1.svg" />
+                                        </ion-col>
+                                        <ion-col col-9>
+                                            <div class="card-title">John Doe</div>
+                                            <div class="card-subtitle">34 fichiers</div>
+                                        </ion-col>
+                                    </ion-row>
+
+
+                                </div>
+                            </ion-card>
+                        </ion-col>
+                        <ion-col>
+
+                        </ion-col>
+                    </ion-row>
+                </div>
+
+            </ion-list>
+            <ion-list *ngSwitchCase="'Rapports'">
+                <div style="margin-bottom:80%;">
+                    <p>11</p>
+                </div>
+            </ion-list>
+            <ion-list *ngSwitchCase="'Listes'">
+                <div style="margin-bottom:80%;">
+                    <p>111</p>
+                </div>
+            </ion-list>
+            <ion-list *ngSwitchCase="'Equipe'">
+                <div style="margin-bottom:80%;">
+                    <p>1111</p>
+                </div>
+            </ion-list>
+            <ion-list *ngSwitchCase="'Carnet'">
+                <div style="margin-bottom:80%;">
+                    <p>11111</p>
+                </div>
+            </ion-list>
+        </div>
+    </div>
+
+
+
+
+
+
+</ion-content>

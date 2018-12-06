@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        filter: url(#Group-01);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 221 67">
+      <image width="221" height="67" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAABDCAYAAAAYqAApAAAACXBIWXMAAC4jAAAuIwF4pT92AAAEKUlEQVR4nO3dP3LTQBTH8UeGHm4QcxCG0GuY0KiNqVWQG+AbkEY1SauGFOpJZrgAXICkoCdcIIzIyrNxJFuWVvv3+6kSSDLxxj/v7ttn6dn9/b0AsOeAsQbs2hq6sqqXZVW/5G8CDFNW9aKs6uNtX9y7vGy+WUR+qU8vRGRV5NkNYw88VVb1kYgsReRERO5EZFHk2Z+ur32+ZfxW2sfNDzopq7oJ33mRZ1eMO7AOW5OVN9pwvBCR040MrXXOdBuzXJdrETkr8uyScUeKmq2XCtVhz8O/LfJs0fUffaE7E5GPA8byVi07z3nmIXaqvnGqlpF9YdN96MrGk9CpH3yjpsihmvCdq9mvcx0LhEqt/JYqcHvlomu26wpdM2V+Gjk+d1r4KLogaCpsK1XTGOv95jasK3Q3A6fOXah4Ikg9xZGxros8O9K/91Ho1Obwi+GBulbho+IJr6nn/9JQ2HRv9ef/5pFBZ4lzouYBfCur+odadlJ0gTdUDeN4RyVyqibI69CtZzp1iv7VwmDcqgd4SdEFrmiVyH2LI2O9arda+ky3tPT4D9US9kwdTVDxhDVaceTYUthaqzZj+kxnO/k6ii6Y1Uablk1PVnZ953Rzr3H70GYGowxXIvfRW8PY+n66Gas5u9BmhkkGtGnNZWe1ftCbWB2+WtBmhsFGtGmZNHiLtNc7xw2d0I9Bmxl6TWjTmmpUB9aoyzWE9iARp1AngUnXSAllOkdcQt/uGLswkc8bV8QhlsKe8auB+ViiRbhiPMKa7RJ8Ph1GIjwxN2vMft1Lh203TdGFNrPApPB8sXaxWdrMsE1KKyPrV3imzQy6FGsATi+rTptZulKudntxLwPazNLAue4Dr24gQptZnOhgeszLu/bwR4oDL6LdvL5VFsuRMLFd2C6Y+9PRZuY/CmPDBHdTSNrM/MIR0P6CvRMrbWZu0ewwXvC3P6bNzC7Ge7po7jnOK++8WFmYE92N/tljmMUe2rzoQqejmjYe1eL5RB26FudGw3AuakcSoWvRIdGNDiC7kgpdiyfZA16E3EgydK1Ul1Mst91KOnS6FAoHFJb8QOg2xFYi5wjFP4SuR+iHwTQL+IvQ7RBa2xNtWv4jdAP5PnPQphUOQrcn3/ZItGmFh9BN4Lga+FNE3tGmFR5CZ4DD2cYmiiOGEDqDHHZ4zIULNc2A0M3AYZuZKVyScEaEbkaO28zGoE3LAkJnicM2syFo07KI0FnmWdGFNi0HCJ0jDg+zhUqkW4TOMYttW7RpeYLQeWLGNjPatDxD6DxjsM2MNi1PETqPjWwzo03Lc4QuAGVVN0vOzwN+09dFnn1Pfbx8R+gCUVb11Y4Z76LIs2Xq4xSCg9QHICD63uy3Wkb+1f5tlfoAhYKZLiBlVV+qKuT/AGoVzwWzXDgIHWAZy0vAJhH5B5x6WX/WrmcLAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <filter id="Group-01" x="0" y="0" width="77" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <rect id="Group-01-2" data-name="Group-01" class="cls-1" width="59" height="18" transform="translate(9 6)"/>
+  </g>
+</svg>

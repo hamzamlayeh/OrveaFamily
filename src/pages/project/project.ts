@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the InfosEnreprisePage page.
+ * Generated class for the ProjectPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,18 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-infos-enreprise',
-  templateUrl: 'infos-enreprise.html',
+  selector: 'page-project',
+  templateUrl: 'project.html',
 })
-export class InfosEnreprisePage {
-
+export class ProjectPage {
+  art:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad InfosEnreprisePage');
+    console.log('ionViewDidLoad ProjectPage');
   }
-click(){
-  alert('test')
-}
+
 }

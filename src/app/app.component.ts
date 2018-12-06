@@ -30,6 +30,7 @@ export class MyApp {
       { title: 'parameter', component: 'ParametresPage' },
       { title: 'InfosEntreprise', component: 'InfosEnreprisePage' },
       {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'},
+      { title: 'Project', component: 'ProjectPage' },
       {title: 'ProjectGalerie',component: 'ProjectGaleriePage'}
     ];
 
