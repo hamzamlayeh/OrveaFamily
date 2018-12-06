@@ -29,7 +29,8 @@ export class MyApp {
       { title: 'role', component: 'RolePage' },
       { title: 'parameter', component: 'ParametresPage' },
       { title: 'InfosEntreprise', component: 'InfosEnreprisePage' },
-      {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'}
+      {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'},
+      {title: 'ProjectGalerie',component: 'ProjectGaleriePage'}
     ];
 
 
