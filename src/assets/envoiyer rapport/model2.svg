@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f3f3;
+      }
+
+      .cls-2 {
+        fill: #97abb4;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_8" data-name="Groupe 8" transform="translate(-203 -473)">
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="93" height="135" transform="translate(338 473) rotate(90)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-2" width="55" height="24.195" transform="translate(212 481)"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-2" width="55" height="24.195" transform="translate(213 526)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-2" width="55" height="24.195" transform="translate(275 481)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-2" width="55" height="24.195" transform="translate(275 526)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-2" width="55" height="3.78" transform="translate(212 508.219)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-2" width="55" height="3.78" transform="translate(213 553.219)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-2" width="55" height="3.78" transform="translate(275 508.219)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-2" width="55" height="3.78" transform="translate(275 553.219)"/>
+  </g>
+</svg>

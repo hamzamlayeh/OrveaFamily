@@ -18,7 +18,10 @@ page-envoyer-rapport {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight:bold;
+        text-align: center;
+        margin-bottom: 6%;
     }
+    
     .rectangle-5-copy {	
         border-radius: 24.5px;
         background-color: #F3F3F3;
@@ -30,6 +33,32 @@ page-envoyer-rapport {
     }
     #inputMail{
         font-size: 64%;
-        margin-left: 25%;
+        }
+
+    .text-input {
+        text-align: center;
+      }
+      span{
+        color: #04336D;
+      }
+    
+    .modele{
+        padding: 10%;
     }
+    .rectangle {   
+        border-radius: 28px;
+        height: 56px;
+         background: linear-gradient(235.73deg, #05AAE1 0%, #002B66 100%);
+         color: #FFFFFF;	
+         font-family: Pangram;
+         font-size: 22px;
+         line-height: 31px;
+         display: block;
+         margin: auto;
+     }
+     .button-inner{
+        color: white;
+        font-size: 61%;
+        color: white;  
+     }  
 }
