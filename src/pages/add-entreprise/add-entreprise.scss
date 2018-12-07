@@ -1,0 +1,58 @@
+page-add-entreprise {
+    .img {
+        margin-top: 1rem;
+    }
+    .line-5-copy {	
+        height: 19px;	
+        width: 18px;	
+        transform: scaleX(-1);
+    }
+    .divText{
+        position: relative;
+        top: 1rem;
+        left: 2rem;
+     }
+     .text {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .text2 {
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        font-size: 114%;
+        position: relative;
+        left: 2rem;
+    }
+    .espace {
+        margin-top:3rem;
+    }
+    .shape {
+        width: 6%;	
+    }
+    .rectangle-5-copy {	
+        border-radius: 24.5px;
+        background-color: #F3F3F3;
+        margin-bottom: 18px;
+        color: #94A9B3;
+        font-family: Pangram;	
+        font-size: 16px;	
+        font-weight: 300;	
+        line-height: 20px;
+    }
+
+    .rectangle {   
+        border-radius: 28px;
+        height: 4rem;
+         background: linear-gradient(235.73deg, #05AAE1 0%, #002B66 100%);
+         color: #FFFFFF;
+         text-transform: none;	
+         font-family: Pangram;
+         font-size: 2rem;
+     }
+}

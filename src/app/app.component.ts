@@ -31,6 +31,9 @@ export class MyApp {
       { title: 'InfosEntreprise', component: 'InfosEnreprisePage' },
       {title: 'EnvoyerRapport',component: 'EnvoyerRapportPage'},
       { title: 'Project', component: 'ProjectPage' },
+      { title: 'AddEntreprise', component: 'AddEntreprisePage' },
+      { title: 'AddProject', component: 'AddProjectPage' },
+      { title: 'InviterMembre', component: 'InviterMembrePage' },
       {title: 'ProjectGalerie',component: 'ProjectGaleriePage'}
     ];
 
