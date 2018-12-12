@@ -15,6 +15,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ProjectPage {
   art:any;
+  ma:any;
+  tab1Root: any = 'ProjectImagePage';
+  tab2Root: any = 'ProjectRapportsPage';
+  tab3Root: any = 'ProjectListesPage';
+  tab4Root: any = 'ProjectEquipePage';
+  tab5Root: any = 'ProjectCarnetPage';
+  myIndex: number;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

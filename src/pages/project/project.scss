@@ -1,4 +1,17 @@
 page-project {
+    .tabs .tab-button[aria-selected=false] .tab-button-text {
+        display: none;
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+    // .tabs[tabsLayout=icon-top] .has-icon .tab-button-text {
+    //     display: none;
+    //     margin-top: 4px;
+    //     margin-bottom: 0;
+    // }
+    .tabs .tabbar {
+        background: #EDFAFF;
+    }
     .rectangle-8 {
         margin-left: 0px;
         margin-right: 0px;
