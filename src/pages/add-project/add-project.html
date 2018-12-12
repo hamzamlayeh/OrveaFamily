@@ -4,15 +4,110 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>AddProject</ion-title>
-  </ion-navbar>
-
-</ion-header>
 
 
 <ion-content padding>
+    <img alt="img" class="croix" src="../../assets/imgs/croix.svg">
+
+    <ion-row class="espace">
+          <ion-col >
+            <h1 style="font-size: 285%">Ajouter un projet</h1>
+          </ion-col>
+      </ion-row>
+  <br>
+
+  <ion-row >
+      <ion-col>
+          <h5> Choisir le type de projet </h5>
+      </ion-col>
+    </ion-row>
+
+
+
+      <ion-list radio-group [(ngModel)]="relationship" no-lines>
+          <ion-item>
+              <ion-label end>Projet longue durée</ion-label>
+              <ion-radio value="friends" checked="true" color="secondary"  item-start></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label end>projet ponctuel</ion-label>
+            <ion-radio value="family" color="secondary" item-start></ion-radio>
+          </ion-item>
+       </ion-list>
+
+
+
+      <ion-row >
+          <ion-col>
+              <h5> Entrer les informations du projet </h5>
+          </ion-col>
+        </ion-row>
+<br>
+        <ion-list class="espace"  no-lines>
+            
+          <ion-item class="rectangle-5-copy" no-lines>
+              <img class="shape" type="text" src="/assets/mobre/Work.svg" item-start>
+            <ion-input  placeholder="Compte client"></ion-input>
+          </ion-item>
+  
+    
+          <ion-item class="rectangle-5-copy" no-lines>
+              <img class="shape" type="text" src="/assets/imgs/person.svg" item-start>
+            <ion-input  placeholder="Nom du projet"></ion-input>
+          </ion-item>
+
+          <ion-item class="rectangle-5-copy" no-lines>
+              <img class="shape" type="text" src="/assets/imgs/pos.svg" item-start>
+            <ion-input  placeholder="Adresse"></ion-input>
+          </ion-item>
+</ion-list>
+
+
+      <ion-row >
+        <ion-col>
+            <h5> Attribuer les roles </h5>
+        </ion-col>
+      </ion-row>
+
+      <ion-list >
+        <ion-item  >
+          <ion-row>
+            <ion-col col-4>
+                <img   src="/assets/addproject/role-add.svg" item-start>
+            </ion-col>
+            <ion-col col-8>
+                <p>Logisticien de chantier n°1</p>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+      </ion-list>
+
+
+      <ion-row >
+          <ion-col>
+              <h5> Ajouter des contacts au répertoire </h5>
+          </ion-col>
+        </ion-row>
+  
+        <ion-list >
+          <ion-item  >
+            <ion-row>
+              <ion-col col-4>
+                  <img   src="/assets/addproject/role-add1.svg" item-start>
+              </ion-col>
+              <ion-col col-8>
+                  <p>Contanct n°1</p>
+              </ion-col>
+            </ion-row>
+          </ion-item>
+        </ion-list>
+
+        <ion-row>
+            <ion-col>
+                <button class="rectangle" ion-button round full>Créer</button>
+            </ion-col>
+  
+        </ion-row>
 
 </ion-content>

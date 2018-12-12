@@ -1,3 +1,65 @@
 page-add-project {
 
+    .croix {
+        max-width: 7%;
+        position: relative;
+        border: 0;
+        top: 1%;
+        left: 90%;
+    }
+
+    [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h6:first-child {
+  
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 40%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+    }
+    [padding] h5:first-child {
+  
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 85%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+    }
+
+     .rectangle-5-copy {	
+        border-radius: 24.5px;
+        background-color: #F3F3F3;
+        margin-bottom: 18px;
+    }
+
+    .shape {
+        height: 19px;	
+        width: 18px;	
+        transform: scaleX(-1);
+    }
+    .item-md p {
+        margin: 0 0 2px;
+        margin-top: 18%;
+        overflow: inherit;
+        font-size: 1.4rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #94A9B3;
+    }
+    .item-ios p {
+        margin: 0 0 2px;
+        margin-top: 18%;
+        overflow: inherit;
+        font-size: 1.4rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #94A9B3;
+    }
+
+    .rectangle {   
+        border-radius: 28px;
+        height: 56px;
+         background: linear-gradient(235.73deg, #05AAE1 0%, #002B66 90%);
+         color: #FFFFFF;	
+         font-family: Pangram;
+         font-size: 22px;
+         line-height: 31px;
+     }
 }
