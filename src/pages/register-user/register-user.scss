@@ -50,4 +50,19 @@ page-register-user {
     margin-bottom: 0;
     color: #94A9B3;
 }
+[padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h6:first-child {
+  
+	background: linear-gradient(to right, #04336D 0%, #07A9E0 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
+
+ [padding] h5:first-child {
+  
+	background: linear-gradient(to right, #04336D 0%, #07A9E0 85%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
 }

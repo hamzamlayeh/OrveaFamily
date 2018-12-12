@@ -4,15 +4,96 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>Membre</ion-title>
-  </ion-navbar>
-
-</ion-header>
 
 
 <ion-content padding>
 
+  <ion-row>
+      <ion-col col-4>
+          <img src="/assets/mobre/Reglages.svg" id="ima_reglage" alt="flache">
+          <img src="/assets/mobre/profil.jpeg" id="avatar" alt="flache">
+      </ion-col>
+
+      <ion-col style="padding-top: 7%;">
+        <span id="span_nom">John Doe</span><br>
+        <span id="span_role">Président</span>
+      </ion-col>
+
+    <ion-col col-2>
+        <img src="/assets/mobre/Fleche.svg" id="ima_flache" alt="flache" item-end>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+  <ion-col >
+    <h1 id="nb-nombre">24 Membres</h1>
+  </ion-col>
+</ion-row>
+
+  <ion-row>
+    <ion-col style="text-align: center;" >
+      <span id="nb-profil-attent">2 profils en attente de validation</span>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col style="display: inline-flex;">
+            <p id="monbre">Mb</p>
+            <p id="monbre">Mb</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+   
+    <ion-col >
+        <br>
+      <img src="/assets/mobre/Ligne.svg" alt="">
+    </ion-col>  
+  </ion-row>
+
+  <ion-row>
+  <ion-col col-4>
+      <br>
+    <img src="/assets/mobre/AddMembe.svg" id="addMonbre" alt="">
+  </ion-col>
+
+  <ion-col col-8 style="margin-left: -17px;">
+      <h5 id="h5">Inviter un nouveau membre</h5>
+  </ion-col>  
+</ion-row>
+<br>
+
+<ion-item class="rectangle-5-copy" no-lines>
+    <img class="shape" type="text" src="/assets/mobre/recherch.svg" item-start>
+  <ion-input  placeholder="Rechercher"></ion-input>
+</ion-item>
+<br>
+
+<ion-list no-lines>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="/assets/mobre/profil.jpeg" class="img-list-mombre">
+      </ion-avatar>
+        <span id="span_nom">John Doe</span><br>
+        <span id="span_role">Logticien de chantier - 3 projets</span>
+    </ion-item>
+
+    <ion-item>
+        <ion-avatar item-left>
+          <img src="/assets/mobre/profil.jpeg" class="img-list-mombre">
+        </ion-avatar>
+          <span id="span_nom">John Doe</span><br>
+          <span id="span_role">Logticien de chantier - 3 projets</span>
+      </ion-item>
+
+      <ion-item>
+          <ion-avatar item-left>
+            <img src="/assets/mobre/profil.jpeg" class="img-list-mombre">
+          </ion-avatar>
+            <span id="span_nom">John Doe</span><br>
+            <span id="span_role">Logticien de chantier - 3 projets</span>
+        </ion-item>
+  
+ </ion-list>
+  
 </ion-content>

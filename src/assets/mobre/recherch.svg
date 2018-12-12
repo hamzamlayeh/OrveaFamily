@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 11 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 67 71">
+      <image width="67" height="71" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABHCAYAAABcW/plAAAACXBIWXMAAC4jAAAuIwF4pT92AAAEtklEQVR4nO1cS27bMBCdFt0nN3BvEN+g7l5AvdKqQNy1FnFPEPcGKlCt62y1igEdQD5BoxvEN4hOkILoyGXGQ4o/2ZbkBwQILJuiHufHmaHevb6+wgX/8P7Cw3986HLwLC9mADAFgGsAmCm+9gQALwBQiv+TOHrpck46BFWTLC/EQ8/x74vjMBUSs07i6CnY5AwQhAyUgAUA3AaenyAmTeJoHXhcFl5kZHnxUawgAHzqdJYAOwBYdU2KExmoDksAuDf8yRYAnvFPxjXaFEHqxHCcRRJHdJwgsCYjy4spSsON5msVfqc01XuUspmBvanFQnQhJVZkZHkh7EIKAFeKrzygjnsZPknylrp7JXG08LkPhTEZSMRvxeVOxNdAHTd43yDu2IgMDRE1TuYxxGQ099epZpXE0TTEfVrJ0BAh7MK8K2OmmMta4b6DqIw2HMcVSZlLQi1mxyRCAB/4G3PpNsuLle/4SslAfX1iXN42iSNVaH0UaKT1cxJHpescdJKxYoio0PWdFOhWfzBzWOMihiMDw+s78nGNqnGyjZSMJI5W6E1kTHARnaCSDG7AYC4sIBa4SDLuMICzxgEZKBV0r7Hp2n26ABeH8yJO0sFJBjfQMviTBAIu0paMdusiHW/IwAGoVDwc24U6gFVr22GoZHAS4O2/uwa604rcxpsM6jY3PZCKBjQ4nGDQaIw9GagiNK44O6OpATdXq+BQlgzuh70hAz0LNaTOZFDrW51hXNEGGoq7qQnD4lEz04FAyTBJJe6h25v0xXDKOJBkGyMqk0Hji96RoUg3Gm/chiYZXrjUWiVcyJAgk7Ej14IkWfsEmQyu2tUrYPqBwtj2yWRQt3TSPKcjDrbtNnsrmQzqlvqoJnTOdCerhUwGjd6ubHd9ZwCvKFonGdAnVcFdN624WZUN9mTgpoxmm8823ceAS+ZY7bppnEF/PFFY6HMEJWNju+tuIwP6kPbDCpt3YuqgvKgo7nqV7bqEogxaJ3FkHSeZlgqO0mDmiCUjFVyxvBUHZGCQ8kA+noSococGun7ayLILRgZiyZTt7rO8OHnRuQGqB2cXlq7pSpYMHIxVl3MIxJCIUtEu4ZzEVm7hkzhKmbhDNJuVpyQEiUiZAKv2bZdoy2csmPj+ZIRIEsG1Ms19s/laMqQqN7UfgpA/6N+PAiS/bOk/9YJpt18zEa4nc4NGq7OcKXqytm5ksWBTn3nY9IHqCKlRj9OQhSeUPK6dSoXKp7vItkP4ukVUawzQUtcVko5p6EgQ9/kKAL+Y7zi3Qbo20qdMzxdFc26kOVSjJEc6pDMzOKey70bWSOt39IZWcD5igQ/AuTgdKpJetDmaUeMxizcPGbIN0vvwjYNe26LVHikk1dqgBjuWhaH6wuM4FkWzx1ibGMQsL0pG0qwMavCjnOSc2tRSYrZoAx5tj2loOpqNDWrn51pxkk20SrNmzemk5xBxiq9BHdwhXx+DOrhaK/aV/2QuPbb1hg72+LeLQR1yFX7OFNNvdFmwwZKBqz9ndtyilZqtBw3+LQk2BnXwzSo2BnU0788wMahjamNqNaijIcPEoI7uNTM6gzrKd+6otvyjfQERY1DrMfeBygZ1BwCzv0iEK8OvM0bVAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <rect id="Group_20-01" data-name="Group 20-01" class="cls-1" width="11" height="12"/>
+</svg>

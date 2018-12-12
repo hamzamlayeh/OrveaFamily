@@ -1,3 +1,92 @@
 page-membre {
+#avatar{
+    border-radius: 50%;
+    max-width: 77%;
+    margin-left: 12%;
+}
+#ima_reglage{
+    position: absolute;
+    display: block;
+    width: 17%;
+    left: 73%;
+}
+#span_nom{
+    color: #04336D;
+}
+#span_role{
+    font-size: 65%;
+    margin-left: 2%;
+    color: #93A6AF;
+}
 
+#ima_flache{
+    max-width: 67%;
+}
+[padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+  
+	background: linear-gradient(to right, #04336D 0%, #07A9E0 40%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
+
+#nb-nombre{
+    margin-left: 4%;
+    font-size: 288%;
+}
+
+#nb-profil-attent{
+    color: #93A6AF;
+    text-align: center;
+    font-size: 135%;
+}
+#monbre{
+    background: #93A6AF;
+    width: 25%;
+    border-radius: 62%;
+    height: 80%;
+    text-align: center;
+    font-size: 173%;
+    padding-top: 23px;
+    color: white;
+    margin-left: 4%;
+}
+#addMonbre{
+    width: 73%;
+    margin-left: 9%;
+}
+#h5{
+    margin-top: 44px;
+    font-size: 99%;
+}
+.rectangle-5-copy {	
+    border-radius: 24.5px;
+    background-color: #F3F3F3;
+    padding-left: 12%;
+    width: 70%;
+    display: -webkit-box;
+    margin: auto;
+}
+.item-ios [item-left], .item-ios [item-start] {
+    margin: 10px 16px 8px 0;
+}
+.shape {
+    height: 19px;	
+    width: 18px;	
+    transform: scaleX(-1);
+
+}
+.img-list-mombre{
+    width: 25%;
+    margin-left: 0%;
+    border-radius: 50%;
+
+}
+
+.item ion-avatar ion-img, .item ion-avatar img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+}
 }
