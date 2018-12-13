@@ -25,14 +25,14 @@
 
 
 
-      <ion-list radio-group [(ngModel)]="relationship" no-lines>
+      <ion-list radio-group [(ngModel)]="relationship" no-lines >
           <ion-item>
               <ion-label end>Projet longue durée</ion-label>
-              <ion-radio value="friends" checked="true" color="secondary"  item-start></ion-radio>
+              <ion-radio (ionSelect)="onSelectChangee()"  value="friends" checked="true" color="secondary"  item-start></ion-radio>
           </ion-item>
           <ion-item>
             <ion-label end>projet ponctuel</ion-label>
-            <ion-radio value="family" color="secondary" item-start></ion-radio>
+            <ion-radio (ionSelect)="onSelectChange()"  value="family" color="secondary" item-start></ion-radio>
           </ion-item>
        </ion-list>
 
@@ -62,7 +62,7 @@
             <ion-input  placeholder="Adresse"></ion-input>
           </ion-item>
 </ion-list>
-
+<div *ngIf="show">
 
       <ion-row >
         <ion-col>
@@ -82,7 +82,7 @@
           </ion-row>
         </ion-item>
       </ion-list>
-
+    </div>
 
       <ion-row >
           <ion-col>
@@ -105,7 +105,7 @@
 
         <ion-row>
             <ion-col>
-                <button class="rectangle" ion-button round full>Créer</button>
+                <button   class="rectangle" ion-button round full>Créer</button>
             </ion-col>
   
         </ion-row>

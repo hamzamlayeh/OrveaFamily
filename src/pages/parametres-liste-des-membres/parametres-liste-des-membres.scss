@@ -1,0 +1,43 @@
+page-parametres-liste-des-membres {
+    #entreprise {
+        max-width: 23%;
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 12px;
+    }
+    [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+  
+        background: linear-gradient(to right, #04336D 0%, #07A9E0 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+    }
+    #ima_flache {
+        max-width: 65%;
+        border: 0;
+        margin-top: 2rem;
+    }
+   #listEntre{
+        text-align: center;
+        margin-top: 6%;
+        font-size: 236%;
+    }
+    .search {
+        position: relative;
+        top: 5%;
+    }
+    .searchBtn {
+        margin: auto;
+        display: block;
+        height: 40px;
+        width: 230px;
+        background-image: url('../../assets/imgs/loupe.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 21px;
+        border-radius: 20px;
+        background-color: #F3F3F3;
+        background-position-x: 5rem;
+    }
+}

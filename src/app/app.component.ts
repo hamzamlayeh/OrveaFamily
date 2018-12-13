@@ -34,7 +34,8 @@ export class MyApp {
       { title: 'AddEntreprise', component: 'AddEntreprisePage' },
       { title: 'AddProject', component: 'AddProjectPage' },
       { title: 'InviterMembre', component: 'InviterMembrePage' },
-      {title: 'ProjectGalerie',component: 'ProjectGaleriePage'}
+      {title: 'ProjectGalerie',component: 'ProjectGaleriePage'},
+      {title: 'Parametres Liste Des Membres Page',component: 'ParametresListeDesMembresPage'}
     ];
 
 

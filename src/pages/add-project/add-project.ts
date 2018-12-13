@@ -14,12 +14,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'add-project.html',
 })
 export class AddProjectPage {
-
+show:boolean;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.show=true;
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddProjectPage');
   }
+  onSelectChange(){
+    this.show=false;
+  }
+  onSelectChangee(){
+    this.show=true;
+  }
+  
 
 }
